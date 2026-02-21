@@ -1,0 +1,39 @@
+:root {
+  --bg-primary: #0a0a0e;
+  --bg-card: #14141a;
+  --accent: #e8b86d;
+  --accent-hover: #f0c97d;
+  --text-primary: #f4f4f5;
+  --text-muted: #8b8b94;
+  --border: #2a2a32;
+  --radius: 16px;
+  --shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(232, 184, 109, 0.1), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(100, 80, 180, 0.06), transparent);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
